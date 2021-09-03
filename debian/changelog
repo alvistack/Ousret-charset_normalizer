@@ -1,0 +1,5 @@
+python-charset-normalizer (100:2.0.5-1) UNRELEASED; urgency=medium
+
+  * https://github.com/Ousret/charset_normalizer/releases/tag/2.0.5
+
+ -- Wong Hoi Sing Edison <hswong3i@gmail.com>  Fri, 03 Sep 2021 13:55:36 +0800
