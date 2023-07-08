@@ -1,0 +1,28 @@
+Source: python-charset-normalizer
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@gmail.com>
+Homepage: https://github.com/Ousret/charset_normalizer/tags
+Vcs-Browser: https://github.com/alvistack/Ousret-charset_normalizer
+Vcs-Git: https://github.com/alvistack/Ousret-charset_normalizer.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-setuptools,
+
+Package: python3-charset-normalizer
+Architecture: all
+Description: Real First Universal Charset Detector
+ Library that helps you read text from an unknown charset encoding.
+ Motivated by chardet, trying to resolve the issue by taking a new
+ approach. All IANA character set names for which the Python core library
+ provides codecs are supported.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,
