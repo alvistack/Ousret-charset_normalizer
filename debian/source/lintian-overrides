@@ -1,0 +1,4 @@
+python-charset-normalizer source: file-without-copyright-information
+python-charset-normalizer source: no-debian-changes
+python-charset-normalizer source: source-contains-prebuilt-windows-binary
+python-charset-normalizer source: source-package-encodes-python-version

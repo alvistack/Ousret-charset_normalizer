@@ -5,6 +5,7 @@ backend-path = ["_mypyc_hook"]
 
 [project]
 name = "charset-normalizer"
+version = "3.4.8"
 description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
 license = {text = "MIT"}
 keywords = ["encoding", "charset", "charset-detector", "detector", "normalization", "unicode", "chardet", "detect"]
@@ -37,7 +38,7 @@ classifiers = [
   "Typing :: Typed",
 ]
 requires-python = ">=3.7"
-dynamic = ["version", "readme"]
+dynamic = ["readme"]
 
 [project.optional-dependencies]
 unicode_backport = []
